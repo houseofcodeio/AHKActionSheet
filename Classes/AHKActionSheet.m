@@ -46,7 +46,7 @@ static const CGFloat kCancelButtonShadowHeightRatio = 0.333f;
 @property (weak, nonatomic, readwrite) UIWindow *previousKeyWindow;
 @property (strong, nonatomic) UIWindow *window;
 @property (weak, nonatomic) UIImageView *blurredBackgroundView;
-@property (weak, nonatomic) UITableView *tableView;
+//@property (weak, nonatomic) UITableView *tableView;
 @property (weak, nonatomic) UIButton *cancelButton;
 @property (weak, nonatomic) UIView *cancelButtonShadowView;
 @end

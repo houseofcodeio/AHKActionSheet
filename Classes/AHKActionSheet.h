@@ -20,6 +20,7 @@ typedef void(^AHKActionSheetHandler)(AHKActionSheet *actionSheet);
 
 /// A block-based alternative to the `UIAlertView`.
 @interface AHKActionSheet : UIView <UIAppearanceContainer>
+@property (weak, nonatomic) UITableView *tableView;
 
 // Appearance - all of the following properties should be set before showing the action sheet. See `+initialize` to learn the default values of all properties.
 
